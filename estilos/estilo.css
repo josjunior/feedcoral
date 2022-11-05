@@ -113,6 +113,8 @@ footer a:active {
     align-items:center;
 }
 
+.sec-mobile {display:none;}
+
 @keyframes animate{
     0%{
       opacity: 0;
@@ -133,6 +135,11 @@ footer a:active {
     animation: animate 1s linear infinite;
     padding-top:15px;
 }
+
+#alertmobile {
+    display:none;
+}
+
 @media screen and (max-width:1094px){
 
     .sec-2 {
@@ -151,4 +158,35 @@ footer a:active {
     .sec-1 {
         width:100%;
     }
+}
+
+@media screen and (max-width:340px){
+    .sec-1 {
+        display:none;
+    }
+    .sec-mobile {
+        display:block;
+    }
+    #alert {
+        display:none;
+    }
+    #alertmobile {
+        display:block;
+    }
+    #alertmobile p {
+        text-align:center;
+        font-family: 'Kanit', sans-serif;
+        font-weight:bold;
+        font-size:15px;
+        text-transform:uppercase;
+        animation: animate 1s linear infinite;
+    }
+    
+}
+
+@media screen and (max-width:430px){
+    #alert p{
+        font-size:15px;
+    }
+    
 }
