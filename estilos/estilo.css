@@ -133,3 +133,22 @@ footer a:active {
     animation: animate 1s linear infinite;
     padding-top:15px;
 }
+@media screen and (max-width:1094px){
+
+    .sec-2 {
+        display:none;
+    }
+    .header {
+        align-items:center;
+        padding-right:0px;
+    }
+    .header h2 {
+        padding-right:38px;
+    }
+}
+
+@media screen and (max-width:543px){
+    .sec-1 {
+        width:100%;
+    }
+}
