@@ -156,16 +156,11 @@ footer a:active {
 
 @media screen and (max-width:543px){
     .sec-1 {
-        width:100%;
-    }
-}
-
-@media screen and (max-width:340px){
-    .sec-1 {
         display:none;
     }
     .sec-mobile {
         display:block;
+        width:100%;
     }
     #alert {
         display:none;
