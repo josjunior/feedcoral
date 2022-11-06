@@ -78,6 +78,7 @@ body {
     flex-direction:row;
     justify-content:center;
     align-items:center;
+    margin-top:-25px;
 }
 #alert p {
     font-family: 'Kanit', sans-serif;
@@ -173,14 +174,17 @@ alert display none, alert-mobile display block*/
     }
     #alertmobile {
         display:block;
+        text-align:center;
+        margin-top:-5px;
     }
     #alertmobile p {
         text-align:center;
         font-family: 'Kanit', sans-serif;
         font-weight:bold;
-        font-size:15px;
+        font-size:20px;
         text-transform:uppercase;
         animation: animate 1s linear infinite;
+        margin-bottom:-5px;
     }
     footer{
         display:none;
