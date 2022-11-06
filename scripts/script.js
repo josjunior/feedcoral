@@ -6,4 +6,4 @@
 // script alert mobile
     setTimeout(function() {
     $('#alertmobile').fadeOut('fast');
-    }, 32000);
+    }, 40000);
