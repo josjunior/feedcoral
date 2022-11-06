@@ -1,15 +1,16 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="pt-BR">
     <head>
         <title>Feed Coral - Últimas notícias do Santa Cruz Futebol Clube</title>
         <meta name="description" content="Últimas notícias do Santa Cruz Futebol Clube">
         <meta name="keywords" content="santa cruz fc, notícias, santa, santinha, coral">
         <meta name="author" content="José Júnior">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="imagens/icon.png">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> <!--spinners bootstrap-->
         <link rel="stylesheet" href="estilos/estilo.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> <!--alert jquery-->
         <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,400&display=swap" rel="stylesheet"> 
     </head>
@@ -17,12 +18,14 @@
         <header class="header">
             <div class="logo">
                 <h1>Feed Coral</h1>
-                <img src="imagens/santa.png" target="Santa Cruz Futebol Clube" style="width:44px; height:40px;">
+                <img src="imagens/santa.png" alt="Santa Cruz Futebol Clube" style="width:44px; height:40px;">
             </div>
             <h2><span class="black">últimas</span><span class="white"> do </span><span class="red">Santinha</span></h2>
         </header>
+        <!--alert-->
         <div id="alert">
             <p>CARREGANDO NOTÍCIAS</p>
+            <!--spinners-->
             <div class="spinner-grow text-secondary" role="status">
                 <span class="sr-only">Loading...</span>
             </div>
@@ -33,8 +36,10 @@
                 <span class="sr-only">Loading...</span>
             </div>
         </div>
+        <!--alert mobile-->
         <div id="alertmobile">
             <p>Aguarde enquanto organizamos as notícias, pode levar alguns segundos.</p>
+            <!--spinners-->
             <div class="spinner-grow text-secondary" role="status">
                 <span class="sr-only">Loading...</span>
             </div>
@@ -46,33 +51,22 @@
             </div>
         </div>
         <main class="main">
-            <section class="sec-mobile">
+            <div class="cont-mobile">
                 <a class="twitter-timeline" data-width="550" data-height="1000" data-theme="dark" href="https://twitter.com/feedcoral?ref_src=twsrc%5Etfw">Tweets by feedcoral</a> 
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-            </section>
-            <section class="sec-1">
+            </div>
+            <div class="cont-1">
                 <a class="twitter-timeline" data-width="550" data-height="4000" data-theme="dark" href="https://twitter.com/feedcoral?ref_src=twsrc%5Etfw">Tweets by feedcoral</a> 
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-            </section>
-            <section class="sec-2">
+            </div>
+            <div class="cont-2">
                 <a class="twitter-timeline" data-width="550" data-height="4000" data-theme="dark" href="https://twitter.com/SantaCruzFC?ref_src=twsrc%5Etfw">Tweets by SantaCruzFC</a> 
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>     
-            </section>
+            </div>
         </main>
-        <footer>
+        <footer class="footer">
             <p>Feed Coral<span>-</span><a href="github.com/josjunior" target="_Blank" title="José Júnior">José Júnior</a></p>
         </footer>
-        <script>
-
-            setTimeout(function() {
-            $('#alert').fadeOut('fast');
-            }, 9500);
-
-
-            setTimeout(function() {
-            $('#alertmobile').fadeOut('fast');
-            }, 22000);
-
-        </script>
+        <script src="scripts/script.js"></script>
     </body>
 </html>
