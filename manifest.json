@@ -3,50 +3,51 @@
     "name": "Notícias Santa",
     "icons": [
       {
-        "src": "imagens/icons-512.svg",
+        "src": "/imagens/icons-512.svg",
         "type": "image/svg+xml",
         "sizes": "320x295"
       },
       {
-        "src": "imagens/icons-192.png",
+        "src": "/imagens/icons-192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "imagens/icons-512.png",
+        "src": "/imagens/icons-512.png",
         "type": "image/png",
         "sizes": "512x512"
       }
     ],
-    "start_url": "index.html",
+    "start_url": "/index.html",
     "background_color": "#000000",
     "display": "fullscreen",
+    "scope": "/",
     "theme_color": "#000000",
     "shortcuts": [
       {
         "name": "Notícias do Santa Cruz FC",
         "short_name": "Notícias Santa",
         "description": "Ver notícias do Santa Cruz FC",
-        "url": "index.html",
-        "icons": [{ "src": "imagens/icons-192.png", "sizes": "192x192" }]
+        "url": "/index.html",
+        "icons": [{ "src": "/imagens/icons-192.png", "sizes": "192x192" }]
       },
       {
         "name": "Contratações Santa FC",
         "short_name": "Contratações Santa",
         "description": "Ver contratações do Santa Cruz FC",
-        "url": "index.html",
-        "icons": [{ "src": "imagens/icons-192.png", "sizes": "192x192" }]
+        "url": "/index.html",
+        "icons": [{ "src": "/imagens/icons-192.png", "sizes": "192x192" }]
       }
     ],
     "description": "Últimas notícias do Santa",
     "screenshots": [
       {
-        "src": "imagens/screen1.png",
+        "src": "/imagens/screen1.png",
         "type": "image/png",
         "sizes": "540x720"
       },
       {
-        "src": "imagens/screen2.jpg",
+        "src": "/imagens/screen2.jpg",
         "type": "image/jpg",
         "sizes": "540x720"
       }
