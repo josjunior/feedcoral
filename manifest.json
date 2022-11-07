@@ -38,6 +38,5 @@
     "start_url": "/",
     "description": "Feed Coral, veja as ultimas notícias do Santa.",
     "background_color": "#000000",
-    "theme_color": "#000000",
-    "prefer_related_applications": false
+    "theme_color": "#000000"
   }
