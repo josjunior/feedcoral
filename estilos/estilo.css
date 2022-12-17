@@ -155,7 +155,19 @@ footer {
 .footer p a:active {
     color:rgb(158, 158, 158);
 }
-
+#ads {
+    text-align: center;
+}
+#ads a:link {
+    text-decoration: none;
+    font-size:1.50rem;
+    font-weight: bold;
+    color:rgb(62, 241, 62);
+}
+#ads a:visited {
+    color:rgb(62, 241, 62);
+    font-weight: bold;
+}
 /*responsive, cont-2 display none*/
 @media screen and (max-width:1094px){
     .cont-2 {
